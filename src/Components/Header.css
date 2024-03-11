@@ -1,0 +1,22 @@
+/* css file for header */
+.box:hover {
+  box-shadow: 1px 1px 22px 5px rgba(0, 0, 0, 0.75);
+}
+.search::placeholder {
+  background-color: #fff;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.bgcolor {
+  background-color: rgb(212, 206, 102);
+}
+.fontcolor {
+  color: #c27ae6 !important;
+}
+.bglightcolor {
+  background-color: rgb(230, 216, 127);
+}
+.iconcolor {
+  color: #777;
+}

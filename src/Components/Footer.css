@@ -1,0 +1,22 @@
+/* css file for footer */
+.bgcolor {
+  background-color: rgb(212, 195, 102);
+}
+.fontcolor {
+  color: #c27ae6 !important;
+}
+.bglightcolor {
+  background-color: rgb(230, 216, 127);
+}
+.iconcolor {
+  color: #777;
+}
+footer {
+  background-color: rgb(239, 234, 202);
+  color: #566071;
+}
+
+/* linear gradient to promotion section */
+.promotion {
+  background: linear-gradient(-7deg, rgb(212, 195, 102) 50%, rgb(230, 216, 127) 50%);
+}

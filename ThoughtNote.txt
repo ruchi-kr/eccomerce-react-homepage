@@ -1,0 +1,70 @@
+RUCHI KUMARI - 1st sept batch
+
+ruchi.kumari63@gmail.com
+Backend
+Module assignment 6 - React App Ecommerce Frontend
+
+
+                              ----  This is a descriptive note of my work  ----
+
+
+-- Firstly created one folder named ecommerce_homepage and opened it in vs code editor.
+-- then opened terminal and wrote " npx create-react-app . " to create a basic react app.
+-- after that removed the files from src folder which was not required for my project.
+-- in index.html, added bootstrap css and js cdn link in head tag.
+-- created one components folder in src folder.
+-- created footer.js, footer.css, header.js, header.css, homecover.js and slider.js in component folder.
+-- now using npm installed font awesome and react router dom in my project.
+-- after this i rendered all the components in home.js (main component) in order.
+-- after this used browserroute , routes and route in app (root) component and created route that redirects to home.js 
+-- delete favicon image from public folder and my own favicon icon which i have created using canva.
+-- whole web app is responsive.
+
+-- code is properly commented.
+
+-- Header.js
+   
+   --- created header component and kept it's css seperately in header.css
+   --- created three section of navbar and used fontawesome in this navbar.
+   --- used bootstrap in built classes for styling.
+   --- used link tag in places whre thre is need to connect it to the diffrent page. but for now kept the to as "#"
+   --- fully responsive
+
+-- Footer.js
+
+   --- created footer component and kept it's css seperately in footer.css
+   --- created four section of footer.
+   --- first section consist of images, second section consist of list of men, women, kids.
+   --- third section consist of subscription to newsletter.
+   --- fourth section consist of copyright. 
+   --- used bootstrap in built classes for styling.
+   --- used link tag in places whre thre is need to connect it to the diffrent page. but for now kept the to as "#"
+   --- fully responsive.
+
+-- HomeCover.js
+
+   --- imported image firstly from image folder.
+   --- then display that image.
+   --- i made this banner image using canva. 
+   --- below this added one carousel.
+   --- used image address url for images. 
+
+-- Slider.js
+
+   --- created three separate columns for men, women and kids.
+   --- created carousel and separate for large, medium and small screen.
+   --- used card inside carousel.
+   --- card has on hover effects.
+   --- fontawesome icons has been used in cards.
+   --- for large screen, 3 cards in one carousel. 
+   --- for medium screen, 2 cards in one carousel.
+   --- likewise, for small screen one card in one carousel.
+   --- fully responsive.
+
+-- index.js 
+  
+   --- rendered app.js finally in index.js
+
+-- i have deleted node modules before submitting my project, so please open terminal and install the same using 
+
+      command - npm i 
